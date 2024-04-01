@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "holy-quran",
+    "scheme": "holy-quran",
+    "slug": "holy-quran",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/meta/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/meta/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/meta/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/meta/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": false
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
