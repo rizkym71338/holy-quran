@@ -27,9 +27,6 @@
     "web": {
       "favicon": "./src/assets/images/meta/favicon.png"
     },
-    "experiments": {
-      "tsconfigPaths": false
-    },
     "plugins": [
       "expo-router"
     ]
